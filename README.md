@@ -1,5 +1,5 @@
 # Testing Frontend OpenECOE plataform using Playwright
-
+```
 clone repository
 cd repository
 node --version
@@ -15,3 +15,4 @@ python -m venv .\venv\
 pip install -r requirements.txt
 
 pytest <test_name>.py
+```
