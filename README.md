@@ -14,5 +14,8 @@ playwright install
 python -m venv .\venv\
 pip install -r requirements.txt
 
-pytest <test_name>.py
+pytest --ff <test_name>.py (Ejecuta los test sin cache)
+
+
+
 ```
