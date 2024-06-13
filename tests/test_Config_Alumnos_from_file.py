@@ -3,7 +3,7 @@ import pytest
 import random
 from decouple import config
 
-
+@pytest.mark.order(7)
 def test_create_ECOE(page: Page):
     # LOGIN
     page.goto(config('SERVER'))
@@ -14,13 +14,13 @@ def test_create_ECOE(page: Page):
     page.get_by_role("button", name="Iniciar sesión").click()
     # Add Stations
     page.locator("nz-card").filter(has_text=config('ECOE_NAME')).get_by_role("link").click()
-    page.locator("nz-card").filter(has_text="Estaciones Configurar 12").get_by_role("button").click()        
-    page.get_by_role("link", name="Estación 1", exact=True).click()
+    page.locator("nz-card").filter(has_text="Estaciones Configurar 12").get_by_role("button").click()   
+    page.get_by_role("button", name="Configuración Cronómetros").click()
+    
+    page.get_by_role("button", name="Configuración Alumnos").click()
     page.get_by_role("button", name="Importar").click()
     
     with page.expect_file_chooser() as fc_info:        
         page.get_by_role("button", name="Pinche aquí o arrastre un").click()
     file_chooser = fc_info.value
-    file_chooser.set_files(config('QUESTIONS_E01_CVS'))
-    
-    
+    file_chooser.set_files(config('ALUMNOS_CVS'))

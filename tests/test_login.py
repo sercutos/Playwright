@@ -1,9 +1,9 @@
 
 from playwright.sync_api import Playwright, sync_playwright, expect
 from decouple import config
+import pytest
 
-
-
+@pytest.mark.order(1)
 def test_run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False, slow_mo=3000)
     context = browser.new_context()

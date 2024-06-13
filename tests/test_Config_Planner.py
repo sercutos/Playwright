@@ -4,7 +4,7 @@ import random
 from decouple import config
 
 
-
+@pytest.mark.order(8)
 def test_create_ECOE(page: Page):
     # LOGIN
     page.goto(config('SERVER'))

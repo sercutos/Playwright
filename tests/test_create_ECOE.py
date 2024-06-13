@@ -3,12 +3,10 @@ import pytest
 import random
 from decouple import config
 
-#EMAIL = 'sergio.cubero@uv.es'
-#PASSWORD = 'ecoe20jornada'
 
-ECOE_NAME = f"ECOE_NUEVA_{random.randint(0,99)}"
+#ECOE_NAME = f"ECOE_NUEVA_{random.randint(0,99)}"
 
-
+@pytest.mark.order(2)
 def test_create_ECOE(page: Page):
     # LOGIN
     page.goto(config('SERVER'))
