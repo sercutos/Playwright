@@ -16,9 +16,11 @@ python -m venv .\venv\
 - playwright install
 - pip install -r requirements.txt
 ## UPGRADE playwright if it's necessary
--pip install pytest-playwright playwright -U
+- pip install pytest-playwright playwright -U
 ## Commands:
 - pytest (play all test together)
 - pytest <name_of_test> (play one by one test)
 - pytest --ff <test_name>.py (Execute test without  cache)
+## Global Variables:
+- .env file
 
