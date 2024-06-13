@@ -1,0 +1,24 @@
+﻿order;description;reference;points;area;questionType;range;option1;points1;option2;points2;option3;points3;option4;points4;option5;points5;option6;points6;option7;points7;option8;points8;option9;points9;option10;points10
+;HABILIDADES DE COMUNICACIÓN;;;;;;;;;;;;;;;;;;;;;;;;;
+1;¿Se identifica y se muestra atento y cordial con el paciente?;reference name 1;1;4;radio;;Si;;;;;;;;;;;;;;;;;;;
+2;¿Emplea el lenguaje adecuado?;reference name 2;1;4;radio;;Si;;;;;;;;;;;;;;;;;;;
+;ANAMNESIS;;;;;;;;;;;;;;;;;;;;;;;;;
+3;Pregunta antecedentes epidemiológicos: si ha estado en contacto con alguien con tuberculosis;reference name 3;1;1;radio;;Si;;;;;;;;;;;;;;;;;;;
+4;Pregunta por síntomas extrapulmonares (febrícula, anorexia, pédida de peso…);reference name 4;1;1;radio;;Si;;;;;;;;;;;;;;;;;;;
+;EXPLORACIÓN;;;;;;;;;;;;;;;;;;;;;;;;;
+5;Auscultación del maniquí adecuada. Describe crepitantes en campos superiores derechos;reference name 5;2;2;radio;;Si;;;;;;;;;;;;;;;;;;;
+6;Solicita realizar exploración por aparatos.;reference name 6;2;2;radio;;Si;;;;;;;;;;;;;;;;;;;
+; EXPLORACIONES COMPLEMENTARIAS;;;;;;;;;;;;;;;;;;;;;;;;;
+7;Solicita una Rx simple de torax. Describe infiltrado cavitado en lóbulo superior derecho;reference name 7;1;3;radio;;Si;;;;;;;;;;;;;;;;;;;
+8;Solicita baciloscopia y cultivo de micobacterias, así como diagnóstico microbiológico extenso;reference name 8;2;3;radio;;Si;;;;;;;;;;;;;;;;;;;
+9;Solicita VIH, enzimas hepáticas, IGRA;reference name 9;1;3;radio;;Si;;;;;;;;;;;;;;;;;;;
+;DIAGNOSTICO;;;;;;;;;;;;;;;;;;;;;;;;;
+10;Tuberculosis pulmonar;reference name 10;2;5;radio;;Si;;;;;;;;;;;;;;;;;;;
+;TRATAMIENTO;;;;;;;;;;;;;;;;;;;;;;;;;
+11;Nombra el aislamiento respiratorio;reference name 11;1;5;radio;;Si;;;;;;;;;;;;;;;;;;;
+12;Nombra el tratamiento con 4 fármacos (isoniazida, rifampicina, etambutol, pirazinamida);reference name 12;1;5;radio;;Si;;;;;;;;;;;;;;;;;;;
+13;Valora interacciones farmacológicas. Evitar tomar alcohol;reference name 13;2;5;radio;;Si;;;;;;;;;;;;;;;;;;;
+;RELACIONES INTERPROFESIONALES;;;;;;;;;;;;;;;;;;;;;;;;;
+14;Declara el caso a Salud Pública;reference name 14;1;7;radio;;Si;;;;;;;;;;;;;;;;;;;
+;PREVENCIÓN Y PROMOCIÓN DE SALUD;;;;;;;;;;;;;;;;;;;;;;;;;
+15;Plantea estudio de contactos;reference name 15;1;6;radio;;Si;;;;;;;;;;;;;;;;;;;
